@@ -2,11 +2,10 @@ import React from 'react';
 import { Text, View, Button } from 'react-native';
 
  
-const Formacao = ({ navigation }) => {  
+const Habilidades = ({ navigation }) => {  
     return (
         <View>
-           <Text>Formada em Administração de empresas.</Text>
-           <Text>Cursando Técnico em Desenvolvimento de Sistemas.</Text>
+           <Text>Fiz curso em Excel, World, Datilografia, Fluxo de Caixa e Movimentação Bancária.</Text>
     
            <Button
                 title="Voltar"
@@ -17,5 +16,4 @@ const Formacao = ({ navigation }) => {
     }
 
     
-    export default Formacao;
-    
+    export default Habilidades;
